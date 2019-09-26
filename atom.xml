@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://qindadai.club/"/>
-  <updated>2019-07-08T15:15:37.369Z</updated>
+  <updated>2019-09-26T07:50:26.767Z</updated>
   <id>https://qindadai.club/</id>
   
   <author>
@@ -17,11 +17,85 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>android项目开源库整理</title>
+    <link href="https://qindadai.club/2019/09/23/android%E9%A1%B9%E7%9B%AE%E5%BC%80%E6%BA%90%E5%BA%93%E6%95%B4%E7%90%86/"/>
+    <id>https://qindadai.club/2019/09/23/android项目开源库整理/</id>
+    <published>2019-09-23T05:51:18.000Z</published>
+    <updated>2019-09-26T07:50:26.767Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="整理一些特定用途的开源项目"><a href="#整理一些特定用途的开源项目" class="headerlink" title="整理一些特定用途的开源项目"></a>整理一些特定用途的开源项目</h3><p><a href="https://github.com/airbnb/lottie-android/" target="_blank" rel="noopener">Lottie</a><br>Lottie支持多平台，使用同一个JSON动画文件，可在不同平台实现相同的效果。Android通过Airbnb的开源项目lottie-android实现，最低支持 API 16<br>应用：马蜂窝</p><p><a href="https://lbs.amap.com/" target="_blank" rel="noopener">com.amap.api.maps</a><br>高德地图，这个不用多说了吧<br>应用：马蜂窝</p><p><a href="https://github.com/google/volley" target="_blank" rel="noopener">volley</a><br>Volley是一个网络通信框架，在2013年的Google I/O被推出。Volley是一个优秀的网路访问框架，即可以通过它访问普通的网络数据，如JSON格式的数据，也可以下载图片。<br>应用：马蜂窝</p><p><a href="https://github.com/pengwei1024/LogUtils" target="_blank" rel="noopener">com.apkfuns.logutils</a><br>LogUtils是一个强大的Android日志管理器<br>应用：马蜂窝</p><p><a href="https://github.com/binaryfork/Spanny" target="_blank" rel="noopener">com.binaryfork.spanny</a><br>富文本相关</p><p><a href="https://pfs.oppomobile.com/static/document/oppo_push_sdk_interface.pdf" target="_blank" rel="noopener">com.coloros.mcssdk</a><br>oppo push文档</p><p><a href="https://github.com/danikula/AndroidVideoCache" target="_blank" rel="noopener">AndroidVideoCache</a><br>Why AndroidVideoCache?<br>Because there is no sense to download video a lot of times while streaming! AndroidVideoCache allows to add caching support to your VideoView/MediaPlayer, <a href="https://github.com/google/ExoPlayer" target="_blank" rel="noopener">ExoPlayer</a> or any another player with help of single line!</p><p><a href="https://github.com/DesarrolloAntonio/FragmentTransactionExtended" target="_blank" rel="noopener">FragmentTransactionExtended</a><br>fragment切换动画</p><p><a href="https://github.com/florent37/ViewAnimator" target="_blank" rel="noopener">ViewAnimator</a><br>A fluent Android animation library !</p><p><a href="https://github.com/markzhai/AndroidPerformanceMonitor" target="_blank" rel="noopener">Android Performance Monitor</a></p><p><a href="https://github.com/google/flexbox-layout" target="_blank" rel="noopener">flexbox-layout</a><br>Note that starting from 1.1.0, the library is expected to use with AndroidX. Please migrate to AndroidX if you use 1.1.0 or above.<br>Please use 1.0.0 if you haven’t migrated to AndroidX.</p><p><a href="https://github.com/h6ah4i/android-advancedrecyclerview" target="_blank" rel="noopener">advancedrecyclerview</a><br>This RecyclerView extension library provides Google’s Inbox app like swiping, Play Music app like drag-and-drop sorting and expandable item features. Works on API level 14 or later.<br>Documentation site: <a href="https://advancedrecyclerview.h6ah4i.com/" target="_blank" rel="noopener">https://advancedrecyclerview.h6ah4i.com/</a></p><p><a href="https://github.com/JZXiang/TimePickerDialog" target="_blank" rel="noopener">TimePickerDialog</a><br> 时间选择器</p><p> <a href="https://github.com/litesuits/android-lite-orm" target="_blank" rel="noopener">lite-orm</a><br> 超轻量数据库</p><p> <a href="https://github.com/lsjwzh/RecyclerViewPager" target="_blank" rel="noopener">RecyclerViewPager</a><br> android.support.v4.view.ViewPager的完美替代品</p><p><a href="https://github.com/hongyangAndroid/FlowLayout" target="_blank" rel="noopener">FlowLayout</a><br>Android流式布局，支持单选、多选等，适合用于产品标签等。</p><p><a href="https://github.com/yanzhenjie/AndPermission" target="_blank" rel="noopener">AndPermission</a><br>Request for runtime permissions.</p><p><a href="https://github.com/cats-oss/android-gpuimage" target="_blank" rel="noopener">gpuimage</a><br>Goal is to have something as similar to GPUImage as possible. Vertex and fragment shaders are exactly the same. That way it makes it easier to port filters from GPUImage iOS to Android.</p><p><a href="https://github.com/tiann/FreeReflection" target="_blank" rel="noopener">FreeReflection</a><br>A library that lets you use reflection without any restriction above Android P</p><p><a href="https://github.com/mapleqin/MaterialRadioGroup" target="_blank" rel="noopener">MaterialRadioGroup</a><br>This is a cool radio button group!</p><p><a href="https://github.com/scwang90/SmartRefreshLayout" target="_blank" rel="noopener">SmartRefreshLayout</a><br>下拉刷新、上拉加载、二级刷新、淘宝二楼、RefreshLayout、OverScroll，Android智能下拉刷新框架，支持越界回弹、越界拖动，具有极强的扩展性，集成了几十种炫酷的Header和 Footer</p><p><a href="https://github.com/smarek/httpclient-android" target="_blank" rel="noopener">cz.msebera.android:httpclient</a><br>HttpClient repackaged for Android<br>Download the repository and simply hit ./build.sh script</p><p><a href="https://github.com/ongakuer/PhotoDraweeView" target="_blank" rel="noopener">PhotoDraweeView</a><br>PhotoView For Fresco</p><p><a href="https://github.com/YoKeyword/Fragmentation" target="_blank" rel="noopener">FragmentationX</a><br>A powerful library that manage Fragment for Android!<br>为”单Activity ＋ 多Fragment”,”多模块Activity + 多Fragment”架构而生，简化开发，轻松解决动画、嵌套、事务相关等问题。</p><p><a href="https://github.com/AigeStudio/WheelPicker" target="_blank" rel="noopener">WheelPicker</a><br>Simple and fantastic wheel view in realistic effect for android.</p><p><a href="https://github.com/AndroidKun/XTabLayout" target="_blank" rel="noopener">XTabLayout</a><br>Added support to modify text size and indicator width based on the original TabLayout.</p><p><a href="https://github.com/Ashok-Varma/BottomNavigation" target="_blank" rel="noopener">BottomNavigation</a><br>This component that mimics the new Material Design Bottom Navigation pattern.</p><p><a href="https://github.com/saiwu-bigkoo/Android-ConvenientBanner" target="_blank" rel="noopener">Android-ConvenientBanner</a><br>banner </p><p><a href="https://github.com/CymChad/BaseRecyclerViewAdapterHelper" target="_blank" rel="noopener">BaseRecyclerViewAdapterHelper</a></p><p><a href="https://github.com/GavinCT/AndroidMP3Recorder" target="_blank" rel="noopener">AndroidMP3Recorder</a></p><p><a href="https://github.com/danikula/AndroidVideoCache" target="_blank" rel="noopener">AndroidVideoCache</a></p><p><a href="https://github.com/3breadt/dd-plist" target="_blank" rel="noopener">com.dd.plist</a><br>A Java library for working with property lists<br>This library enables your Java application to handle property lists of various formats. It is licensed under the terms of the MIT license.</p><p><a href="https://github.com/pinguo-zhouwei/CustomPopwindow" target="_blank" rel="noopener">CustomPopwindow</a><br>对PopupWindow常用API的简单封装，几行代码就搞定PopupWindow弹窗，使用Builder模式，链式调用，像使用AlertDialog 一样</p><p><a href="https://github.com/lcodecorex/TwinklingRefreshLayout" target="_blank" rel="noopener">TwinklingRefreshLayout</a><br>RefreshLayout that support for OverScroll and better than iOS. 支持下拉刷新和上拉加载的RefreshLayout,自带越界回弹效果，支持RecyclerView,AbsListView,ScrollView,WebView</p><p><a href="https://github.com/Jude95/EasyRecyclerView" target="_blank" rel="noopener">EasyRecyclerView</a><br>ArrayAdapter,pull to refresh,auto load more,Header/Footer,EmptyView,ProgressView,ErrorView</p><p><a href="https://github.com/mcxiaoke/packer-ng-plugin" target="_blank" rel="noopener">packer-ng-plugin</a><br>下一代Android打包工具，100个渠道包只需要10秒钟</p><p><a href="https://github.com/nostra13/Android-Universal-Image-Loader" target="_blank" rel="noopener">Android-Universal-Image-Loader</a><br>Powerful and flexible library for loading, caching and displaying images on Android.</p><p><a href="https://github.com/orhanobut/dialogplus" target="_blank" rel="noopener">dialogplus</a><br>Advanced dialog solution for android</p><p><a href="https://github.com/CarGuo/GSYVideoPlayer" target="_blank" rel="noopener">GSYVideoPlayer</a><br>GSY视频播放器</p><p><a href="https://www.sobot.com/business.html" target="_blank" rel="noopener">智齿科技客服解决方案</a></p><p><a href="https://github.com/andkulikov/Transitions-Everywhere" target="_blank" rel="noopener">Transitions-Everywhere</a><br>Set of extra Transitions on top of Jetpack Transitions Library</p><p><a href="https://github.com/trello/RxLifecycle" target="_blank" rel="noopener">RxLifecycle</a><br>Lifecycle handling APIs for Android apps using RxJava</p><p><a href="https://github.com/yipianfengye/android-zxingLibrary" target="_blank" rel="noopener">android-zxingLibrary</a><br>几行代码快速集成二维码扫描功能</p><p><a href="https://github.com/Yalantis/uCrop" target="_blank" rel="noopener">uCrop</a><br>Image Cropping Library for Android</p><p><a href="https://www.youzan.com/" target="_blank" rel="noopener">有赞云</a></p><p><a href="https://github.com/H07000223/FlycoTabLayout" target="_blank" rel="noopener">FlycoTabLayout</a><br>An Android TabLayout Lib</p><p><a href="https://github.com/GcsSloop/rclayout" target="_blank" rel="noopener">rclayout</a><br>暂停维护-Android通用圆角布局。</p><p><a href="https://github.com/barteksc/AndroidPdfViewer" target="_blank" rel="noopener">AndroidPdfViewer</a><br>Android view for displaying PDFs rendered with PdfiumAndroid</p><p><a href="https://github.com/lzyzsd/CircleProgress" target="_blank" rel="noopener">CircleProgress</a><br>CircleProgress, DonutProgress, ArcProgress</p><p><a href="https://github.com/sannies/mp4parser" target="_blank" rel="noopener">mp4parser</a><br>A Java API to read, write and create MP4 files</p><p><a href="https://github.com/zhangliangming/HappyPlayer-PC" target="_blank" rel="noopener">HappyPlayer-PC</a><br>乐乐音乐播放器，支持ape，wav，flac，mp3等多种格式，支持动态ksc、hrc、hrcx、krc歌词文件和支持和显示翻译歌词和音译歌词，支持多语言歌词，是一款不错的java swing音乐播放器</p><p><a href="https://github.com/belerweb/pinyin4j" target="_blank" rel="noopener">pinyin4j</a><br>A copy of <a href="http://sourceforge.net/projects/pinyin4j" target="_blank" rel="noopener">http://sourceforge.net/projects/pinyin4j</a>, then deploy it to maven central repository.<br>在pinyin4j的基础上添加了多音字识别，带近一万个多音词，但是这远远不够，所以用户可设置外挂词库</p><p><a href="http://www.hpplay.com.cn/index" target="_blank" rel="noopener">com.hpplay</a><br>乐播投屏 解决方案</p><p><a href="https://www.iflytek.com/" target="_blank" rel="noopener">com.iflytek</a><br>讯飞</p><p><a href="https://www.getui.com/" target="_blank" rel="noopener">com.igexin</a><br>个推</p><p><a href="https://github.com/stefanjauker/BadgeView" target="_blank" rel="noopener">BadgeView</a><br>An extended TextView that mimics the iOS Springboard ‘badges’. It can be overlaid on any other item.</p><p><a href="https://github.com/Jude95/SwipeBackHelper" target="_blank" rel="noopener">SwipeBackHelper</a><br>make your activity can swipe to close</p><p><a href="https://github.com/Kaopiz/KProgressHUD" target="_blank" rel="noopener">KProgressHUD</a><br>An implement of ProgressHUD for Android, similar to MBProgressHUD, SVProgressHUD for iOS.</p><p><a href="https://github.com/timehop/sticky-headers-recyclerview" target="_blank" rel="noopener">sticky-headers-recyclerview</a><br>UNMAINTAINED- Sticky Headers decorator for Android’s RecyclerView</p><p><a href="https://github.com/TUBB/SwipeMenu" target="_blank" rel="noopener">SwipeMenu</a><br>A swipe menu for horizontal/vertical, support left/right and top/bottom directions</p><p><a href="https://github.com/tulskiy/musique" target="_blank" rel="noopener">musique</a><br>Java audio player. Supports mp3, ogg, flac, wavpack, ape, wav, au, aiff. Builtin support for cue files, gapless playback, SHOUTCast/IceCast Radio, last.fm scrobbling. <a href="http://tulskiy.github.com/musique/" target="_blank" rel="noopener">http://tulskiy.github.com/musique/</a></p><p><a href="https://github.com/android-notes/SwissArmyKnife" target="_blank" rel="noopener">SwissArmyKnife</a><br>android ui调试工具</p><p><a href="https://github.com/jd-alexander/LikeButton" target="_blank" rel="noopener">LikeButton</a><br>Twitter’s heart animation for Android</p><p><a href="https://github.com/lingochamp/FileDownloader" target="_blank" rel="noopener">FileDownloader</a><br>Multitask、MultiThread(MultiConnection)、Breakpoint-resume、High-concurrency、Simple to use、Single/NotSingle-process</p><p><a href="https://github.com/android-async-http/android-async-http" target="_blank" rel="noopener">android-async-http</a><br>An Asynchronous HTTP Library for Android</p><p><a href="https://github.com/mabeijianxi/small-video-record" target="_blank" rel="noopener">small-video-record</a><br>利用FFmpeg视频录制微信小视频与其压缩处理</p><p><a href="https://github.com/JakeWharton/NineOldAndroids" target="_blank" rel="noopener">NineOldAndroids</a><br>[DEPRECATED] Android library for using the Honeycomb animation API on all versions of the platform back to 1.0! <a href="http://nineoldandroids.com" target="_blank" rel="noopener">http://nineoldandroids.com</a></p><p><a href="https://github.com/robinhood/ticker" target="_blank" rel="noopener">ticker</a><br>An Android text view with scrolling text change animation</p><p><a href="https://github.com/mshockwave/PdfiumAndroid" target="_blank" rel="noopener">PdfiumAndroid</a><br>pdfium for android( &gt;= API 9 ) binding</p><p><a href="https://github.com/zetbaitsu/Compressor" target="_blank" rel="noopener">Compressor</a><br>An android image compression library.</p><p><a href="https://github.com/liuguangqiang/MaterialDialog-1" target="_blank" rel="noopener">MaterialDialog-1</a><br>（Deprecated）An Android dialog library, has strong extensibility, customizability, and for conveniently building Material Design Dialog in Android version 2.2 ~ L.</p><p><a href="https://github.com/ongakuer/CircleIndicator" target="_blank" rel="noopener">CircleIndicator</a><br>A lightweight indicator like in nexus 5 launcher</p><p><a href="https://github.com/yaming116/UpdateApp" target="_blank" rel="noopener">UpdateApp</a><br>app update, is mainly responsible for app download and installation, etc. 开箱即用的app更新，主要负责软件下载、软件安装等。</p><p><a href="https://github.com/zhanghai/MaterialProgressBar" target="_blank" rel="noopener">MaterialProgressBar</a><br>Material Design ProgressBar with consistent appearance</p><p><a href="https://github.com/codeestX/ENViews" target="_blank" rel="noopener">ENViews</a><br>ENViews, A cool dynamic view library.All designed by Nick Buturishvili<br>ENViews, 一个华丽丽的动效控件库，所有控件原型取自Nick Buturishvili的设计作品</p><p><a href="https://github.com/hackware1993/MagicIndicator" target="_blank" rel="noopener">MagicIndicator</a><br>A powerful, customizable and extensible ViewPager indicator framework. As the best alternative of ViewPagerIndicator, TabLayout and PagerSlidingTabStrip —— 强大、可定制、易扩展的 ViewPager 指示器框架。是ViewPagerIndicator、TabLayout、PagerSlidingTabStrip的最佳替代品。支持角标，更支持在非ViewPager场景下使用（使用hide()、show()切换Fragment或使用setVisibility切换FrameLayout里的View等）</p><p><a href="https://github.com/netplex/json-smart-v2" target="_blank" rel="noopener">json-smart-v2</a></p><p><a href="https://github.com/bilibili/ijkplayer" target="_blank" rel="noopener">ijkplayer</a><br>ijkplayer</p><p><a href="https://github.com/youth5201314/banner" target="_blank" rel="noopener">banner</a><br>Android广告图片轮播控件，支持无限循环和多种主题，可以灵活设置轮播样式、动画、轮播和切换时间、位置、图片加载框架等！</p><p><a href="https://github.com/hongyangAndroid/AndroidAutoLayout" target="_blank" rel="noopener">AndroidAutoLayout</a><br>[停止维护]Android屏幕适配方案，直接填写设计图上的像素尺寸即可完成适配，最大限度解决适配问题。</p><p><a href="https://github.com/zhangliangming/HPAudio" target="_blank" rel="noopener">HPAudio</a><br>该开源依赖库是乐乐音乐播放器里的一个音频模块功能，主要是Android解析wav、mp3、ape、ogg、wv和flac的声道数、采样率、时长等信息</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;整理一些特定用途的开源项目&quot;&gt;&lt;a href=&quot;#整理一些特定用途的开源项目&quot; class=&quot;headerlink&quot; title=&quot;整理一些特定用途的开源项目&quot;&gt;&lt;/a&gt;整理一些特定用途的开源项目&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://github.co
+      
+    
+    </summary>
+    
+      <category term="Android" scheme="https://qindadai.club/categories/Android/"/>
+    
+    
+      <category term="开源 github" scheme="https://qindadai.club/tags/%E5%BC%80%E6%BA%90-github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jenkins搭建android自动化编译环境</title>
+    <link href="https://qindadai.club/2019/09/21/jenkins%E6%90%AD%E5%BB%BAandroid%E8%87%AA%E5%8A%A8%E5%8C%96%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/"/>
+    <id>https://qindadai.club/2019/09/21/jenkins搭建android自动化编译环境/</id>
+    <published>2019-09-21T05:45:08.000Z</published>
+    <updated>2019-09-24T02:06:58.485Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="jenkins"><a href="#jenkins" class="headerlink" title="jenkins"></a>jenkins</h3><p>jenkins 是什么？<br>是 持续交付 和 持续集成 的工具</p><h3 id="android环境配置"><a href="#android环境配置" class="headerlink" title="android环境配置"></a>android环境配置</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gradle 构建工具</span><br><span class="line">android sdk</span><br></pre></td></tr></table></figure><h3 id="自动化步骤设计"><a href="#自动化步骤设计" class="headerlink" title="自动化步骤设计"></a>自动化步骤设计</h3><h4 id="操作指南"><a href="#操作指南" class="headerlink" title="操作指南"></a>操作指南</h4><p>1、首先 选择 dev or release 选择构建方式<br>2、其次选择tag版本号<br>3、最后再选择渠道<br>开始构建！</p><h4 id="构建过程的脚本框架"><a href="#构建过程的脚本框架" class="headerlink" title="构建过程的脚本框架"></a>构建过程的脚本框架</h4><p>1、首先选择 tag版本的代码进行 dev or release 的打包<br>2、打包完成，再zip 入 渠道包<br>3、二次签名<br>4、导出</p><h4 id="脚本"><a href="#脚本" class="headerlink" title="脚本"></a>脚本</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#!bin/zsh</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;jenkins&quot;&gt;&lt;a href=&quot;#jenkins&quot; class=&quot;headerlink&quot; title=&quot;jenkins&quot;&gt;&lt;/a&gt;jenkins&lt;/h3&gt;&lt;p&gt;jenkins 是什么？&lt;br&gt;是 持续交付 和 持续集成 的工具&lt;/p&gt;
+&lt;h3 id=&quot;andr
+      
+    
+    </summary>
+    
+    
+      <category term="android 自动化 构建" scheme="https://qindadai.club/tags/android-%E8%87%AA%E5%8A%A8%E5%8C%96-%E6%9E%84%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于Glide4.8的GlideApp使用</title>
+    <link href="https://qindadai.club/2019/07/17/%E5%9F%BA%E4%BA%8EGlide4-8%E7%9A%84GlideApp%E4%BD%BF%E7%94%A8/"/>
+    <id>https://qindadai.club/2019/07/17/基于Glide4-8的GlideApp使用/</id>
+    <published>2019-07-17T02:29:28.000Z</published>
+    <updated>2019-08-13T11:32:30.419Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Glide4-x-和-Glide3-x的区别"><a href="#Glide4-x-和-Glide3-x的区别" class="headerlink" title="Glide4.x 和 Glide3.x的区别"></a>Glide4.x 和 Glide3.x的区别</h2><h3 id="参考博客"><a href="#参考博客" class="headerlink" title="参考博客"></a>参考博客</h3><p><a href="https://zzy904494436.github.io/" target="_blank" rel="noopener">我的blog</a>!<br><a href="https://muyangmin.github.io/glide-docs-cn/" target="_blank" rel="noopener">github官方中文文档</a></p><h3 id="下载与配置"><a href="#下载与配置" class="headerlink" title="下载与配置"></a>下载与配置</h3><p>下面是glide的引入方式，添加到module的gradle依赖里面</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">api &apos;com.github.bumptech.glide:glide:4.8.0&apos;</span><br><span class="line">annotationProcessor &apos;com.github.bumptech.glide:compiler:4.8.0&apos;</span><br></pre></td></tr></table></figure><p>在此之前，我们还需要在项目的gradle里面加如path，这样上面这句话才能sync通过</p><h4 id="Android-SDK-要求"><a href="#Android-SDK-要求" class="headerlink" title="Android SDK 要求"></a>Android SDK 要求</h4><pre><code>Min Sdk VersionCompile Sdk Version</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Glide4-x-和-Glide3-x的区别&quot;&gt;&lt;a href=&quot;#Glide4-x-和-Glide3-x的区别&quot; class=&quot;headerlink&quot; title=&quot;Glide4.x 和 Glide3.x的区别&quot;&gt;&lt;/a&gt;Glide4.x 和 Glide3.x的
+      
+    
+    </summary>
+    
+      <category term="Android" scheme="https://qindadai.club/categories/Android/"/>
+    
+    
+      <category term="Glide" scheme="https://qindadai.club/tags/Glide/"/>
+    
+  </entry>
+  
+  <entry>
     <title>配置HomeMac</title>
     <link href="https://qindadai.club/2019/06/03/%E9%85%8D%E7%BD%AEHomeMac/"/>
     <id>https://qindadai.club/2019/06/03/配置HomeMac/</id>
     <published>2019-06-03T15:53:38.000Z</published>
-    <updated>2019-07-08T15:15:37.369Z</updated>
+    <updated>2019-07-17T02:33:09.402Z</updated>
     
     <content type="html"><![CDATA[<p>##安装homebrew<br><a href="https://brew.sh/index_zh-cn.html" target="_blank" rel="noopener">https://brew.sh/index_zh-cn.html</a><br><a href="https://www.jianshu.com/p/bca8fc1ff3f0" target="_blank" rel="noopener">https://www.jianshu.com/p/bca8fc1ff3f0</a></p><p>/usr/bin/ruby -e “$(curl -fsSL <a href="https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;" target="_blank" rel="noopener">https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</a></p><p>##查看md 中文文档<br><a href="https://markdown-zh.readthedocs.io/en/latest/" target="_blank" rel="noopener">https://markdown-zh.readthedocs.io/en/latest/</a></p><p>##vscode的插件推荐<br><a href="https://www.jianshu.com/p/9f13e971fe6b" target="_blank" rel="noopener">https://www.jianshu.com/p/9f13e971fe6b</a><br><a href="https://blog.csdn.net/shenxianhui1995/article/details/81604818" target="_blank" rel="noopener">https://blog.csdn.net/shenxianhui1995/article/details/81604818</a></p><p>vs md</p><p>##插件<br><a href="https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/" target="_blank" rel="noopener">https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/</a></p><p>安装wget<br><a href="https://www.jianshu.com/p/c989655e9592" target="_blank" rel="noopener">https://www.jianshu.com/p/c989655e9592</a></p><p>brew install wget</p><p>##下载oh-my-zsh<br><a href="https://segmentfault.com/a/1190000013612471" target="_blank" rel="noopener">https://segmentfault.com/a/1190000013612471</a><br><a href="http://yijiebuyi.com/blog/b9b5e1ebb719f22475c38c4819ab8151.html" target="_blank" rel="noopener">http://yijiebuyi.com/blog/b9b5e1ebb719f22475c38c4819ab8151.html</a></p><p>wget <a href="https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh" target="_blank" rel="noopener">https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh</a> -O - | sh</p><p>####插图</p><p>##zsh的配置说明</p><p><a href="https://wdxtub.com/2016/02/18/oh-my-zsh/" target="_blank" rel="noopener">https://wdxtub.com/2016/02/18/oh-my-zsh/</a><br><a href="https://github.com/TimothyYe/mydotfiles/blob/master/.zshrc" target="_blank" rel="noopener">https://github.com/TimothyYe/mydotfiles/blob/master/.zshrc</a></p><p>##Mac下配置android环境变量<br><a href="https://www.jianshu.com/p/84f3baf1682c" target="_blank" rel="noopener">https://www.jianshu.com/p/84f3baf1682c</a></p><p>##配置其他变量<br>tools 比如 apktool   jar2 等</p><p>##每次配置完成，需要source 或者重启iterm2</p><p>iterm2的使用</p><p>配色 </p><p>##主题</p><p>两种shortcut</p><p>##快捷键<br><a href="https://xiaozhou.net/learn-the-command-line-iterm-and-zsh-2017-06-23.html" target="_blank" rel="noopener">https://xiaozhou.net/learn-the-command-line-iterm-and-zsh-2017-06-23.html</a><br><a href="https://segmentfault.com/a/1190000013612471" target="_blank" rel="noopener">https://segmentfault.com/a/1190000013612471</a><br><a href="http://yijiebuyi.com/blog/b9b5e1ebb719f22475c38c4819ab8151.html" target="_blank" rel="noopener">http://yijiebuyi.com/blog/b9b5e1ebb719f22475c38c4819ab8151.html</a></p><p>##结束</p>]]></content>
     
@@ -34,10 +108,10 @@
     
     </summary>
     
-      <category term="unix" scheme="https://qindadai.club/categories/unix/"/>
+      <category term="环境与IDE" scheme="https://qindadai.club/categories/%E7%8E%AF%E5%A2%83%E4%B8%8EIDE/"/>
     
     
-      <category term="环境搭建相关" scheme="https://qindadai.club/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%85%B3/"/>
+      <category term="mac环境 zsh" scheme="https://qindadai.club/tags/mac%E7%8E%AF%E5%A2%83-zsh/"/>
     
   </entry>
   
@@ -46,12 +120,16 @@
     <link href="https://qindadai.club/2019/05/16/%E7%BD%91%E7%BB%9C%E6%A1%86%E6%9E%B6%E7%9A%84%E6%90%AD%E5%BB%BA/"/>
     <id>https://qindadai.club/2019/05/16/网络框架的搭建/</id>
     <published>2019-05-16T07:31:08.000Z</published>
-    <updated>2019-07-08T15:15:37.369Z</updated>
+    <updated>2019-07-17T02:37:50.294Z</updated>
     
     <summary type="html">
     
     </summary>
     
+      <category term="Android" scheme="https://qindadai.club/categories/Android/"/>
+    
+    
+      <category term="网络框架 OkHttp Retrofit" scheme="https://qindadai.club/tags/%E7%BD%91%E7%BB%9C%E6%A1%86%E6%9E%B6-OkHttp-Retrofit/"/>
     
   </entry>
   
@@ -60,16 +138,23 @@
     <link href="https://qindadai.club/2019/05/10/%E4%B8%9A%E5%8A%A1%E4%B8%AD%E7%9A%84%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/"/>
     <id>https://qindadai.club/2019/05/10/业务中的视频播放器/</id>
     <published>2019-05-10T01:35:45.000Z</published>
-    <updated>2019-07-08T15:15:37.368Z</updated>
+    <updated>2019-07-17T02:34:52.174Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="与FFmpeg无关"><a href="#与FFmpeg无关" class="headerlink" title="与FFmpeg无关"></a>与FFmpeg无关</h2><h4 id="待续…"><a href="#待续…" class="headerlink" title="待续…"></a>待续…</h4>]]></content>
     
     <summary type="html">
     
+      
+      
+        &lt;h2 id=&quot;与FFmpeg无关&quot;&gt;&lt;a href=&quot;#与FFmpeg无关&quot; class=&quot;headerlink&quot; title=&quot;与FFmpeg无关&quot;&gt;&lt;/a&gt;与FFmpeg无关&lt;/h2&gt;&lt;h4 id=&quot;待续…&quot;&gt;&lt;a href=&quot;#待续…&quot; class=&quot;headerlink
+      
+    
     </summary>
     
-      <category term="android" scheme="https://qindadai.club/categories/android/"/>
+      <category term="Android" scheme="https://qindadai.club/categories/Android/"/>
     
     
-      <category term="播放器" scheme="https://qindadai.club/tags/%E6%92%AD%E6%94%BE%E5%99%A8/"/>
+      <category term="自定义View 播放器" scheme="https://qindadai.club/tags/%E8%87%AA%E5%AE%9A%E4%B9%89View-%E6%92%AD%E6%94%BE%E5%99%A8/"/>
     
   </entry>
   
@@ -78,7 +163,7 @@
     <link href="https://qindadai.club/2019/05/08/google-2019-io%E8%A7%82%E5%90%8E%E6%84%9F/"/>
     <id>https://qindadai.club/2019/05/08/google-2019-io观后感/</id>
     <published>2019-05-08T04:47:51.000Z</published>
-    <updated>2019-07-08T15:15:37.368Z</updated>
+    <updated>2019-07-17T02:31:52.877Z</updated>
     
     <content type="html"><![CDATA[<h2 id="看了一下google的io大会，想到啥就写啥！"><a href="#看了一下google的io大会，想到啥就写啥！" class="headerlink" title="看了一下google的io大会，想到啥就写啥！"></a>看了一下google的io大会，想到啥就写啥！</h2><p>####在手机的未来发展方向上 apple一直驱动着其他厂商，从全面屏开始，apple的创新乏力已经体现出来了，全面屏是apple的一次很好的探索，虽然ios一直走在前面，但是在屏占比 和更广的可视方面，android反而走在前列，从小米mix系列开始到oppo、vivo和其他厂商的“跟风”，直到华为折叠屏手机的问世，apple的地位正在动摇，虽然ios有自己的一套闭环生态，但是来自android的冲击是越来越大的，预计在将来3-5年，手机行业即将发生颠覆性的变革，无论从通讯、设计、芯片、智能穿戴等任何方面，预计3年内的移动端硬件技术将会引导软件行业的变革，国内滞后2-3年左右</p>]]></content>
     
@@ -94,7 +179,7 @@
       <category term="随笔" scheme="https://qindadai.club/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="心情 google" scheme="https://qindadai.club/tags/%E5%BF%83%E6%83%85-google/"/>
+      <category term="google I/O大会" scheme="https://qindadai.club/tags/google-I-O%E5%A4%A7%E4%BC%9A/"/>
     
   </entry>
   
@@ -103,9 +188,9 @@
     <link href="https://qindadai.club/2019/04/24/%E5%85%B3%E4%BA%8Ehexo-Next%E4%B8%BB%E9%A2%98leancloud%E7%9A%84%E8%AE%A1%E6%95%B0%E9%97%AE%E9%A2%98/"/>
     <id>https://qindadai.club/2019/04/24/关于hexo-Next主题leancloud的计数问题/</id>
     <published>2019-04-24T08:22:12.000Z</published>
-    <updated>2019-07-08T15:57:05.540Z</updated>
+    <updated>2019-07-08T16:15:23.247Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="阅读次数的统计"><a href="#阅读次数的统计" class="headerlink" title="阅读次数的统计"></a>阅读次数的统计</h2><p>我参考了<a href="https://notes.doublemine.me/2015-10-21-%E4%B8%BANexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E9%87%8F%E7%BB%9F%E8%AE%A1%E5%8A%9F%E8%83%BD.html#%E9%85%8D%E7%BD%AELeanCloud" target="_blank" rel="noopener">这个文档</a></p><h2 id="发现问题"><a href="#发现问题" class="headerlink" title="发现问题"></a>发现问题</h2><p>如图<br><img src="%E5%85%B3%E4%BA%8Ehexo-Next%E4%B8%BB%E9%A2%98leancloud%E7%9A%84%E8%AE%A1%E6%95%B0%E9%97%AE%E9%A2%98/img_31609.png" alt></p><p>这个地方会有问题 出现了下面</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">月底次数：31:31</span><br></pre></td></tr></table></figure><p>的情况，</p><p>通过查找 <a href>lean-cloud</a> 出现的地方,原因是<br>原来是添加了上面文档中的<br><img src="%E5%85%B3%E4%BA%8Ehexo-Next%E4%B8%BB%E9%A2%98leancloud%E7%9A%84%E8%AE%A1%E6%95%B0%E9%97%AE%E9%A2%98/img_31618.png" alt></p><p>这一条 跟 主题原来带的include 代码(86行左右)：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% include &apos;_third-party/analytics/lean-analytics.swig&apos; %&#125;</span><br></pre></td></tr></table></figure><p>冲突了，<br>所以还是事先看看有没有这句话，有的话 就不需要做操作了！</p><p>bingo！！！</p><hr><p>这次修改主要是测试多端hexo博客的同步问题<br>本次blog提交自家里主机imac<br>以下测试 md语法：</p><p><a href="http://www.baidu.com" target="_blank" rel="noopener">测试</a>  表示超链接</p><p>##大标题</p><p>###小标题</p><a id="more"></a><!-- 标签别名 --><blockquote class="blockquote-center"><p>blah blah blah</p></blockquote><h2 id="空格-中文全角空格表示"><a href="#空格-中文全角空格表示" class="headerlink" title="空格  中文全角空格表示"></a>空格  中文全角空格表示</h2><h2 id="文章标题"><a href="#文章标题" class="headerlink" title="文章标题"></a>文章标题</h2><blockquote><p>内容     区块引用<br><em>1<br>*2<br>*3<br>列表<br>*内容</em>     表示强调内容<br><img src="/path/to/img.jpg" alt="Alt text">  图片<br><img src="/upload_image/20161012/1.png" alt></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h2 id="阅读次数的统计"><a href="#阅读次数的统计" class="headerlink" title="阅读次数的统计"></a>阅读次数的统计</h2><p>我参考了<a href="https://notes.doublemine.me/2015-10-21-%E4%B8%BANexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E9%87%8F%E7%BB%9F%E8%AE%A1%E5%8A%9F%E8%83%BD.html#%E9%85%8D%E7%BD%AELeanCloud" target="_blank" rel="noopener">这个文档</a></p><h2 id="发现问题"><a href="#发现问题" class="headerlink" title="发现问题"></a>发现问题</h2><p>如图<br><img src="%E5%85%B3%E4%BA%8Ehexo-Next%E4%B8%BB%E9%A2%98leancloud%E7%9A%84%E8%AE%A1%E6%95%B0%E9%97%AE%E9%A2%98/img_31609.png" alt></p><p>这个地方会有问题 出现了下面</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">月底次数：31:31</span><br></pre></td></tr></table></figure><p>的情况，</p><p>通过查找 <a href>lean-cloud</a> 出现的地方,原因是<br>原来是添加了上面文档中的<br><img src="%E5%85%B3%E4%BA%8Ehexo-Next%E4%B8%BB%E9%A2%98leancloud%E7%9A%84%E8%AE%A1%E6%95%B0%E9%97%AE%E9%A2%98/img_31618.png" alt></p><p>这一条 跟 主题原来带的include 代码(86行左右)：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% include &apos;_third-party/analytics/lean-analytics.swig&apos; %&#125;</span><br></pre></td></tr></table></figure><p>冲突了，<br>所以还是事先看看有没有这句话，有的话 就不需要做操作了！</p><p>bingo！！！</p><hr><p>这次修改主要是测试多端hexo博客的同步问题 </p><h2 id="本次blog提交自家里主机imac"><a href="#本次blog提交自家里主机imac" class="headerlink" title="本次blog提交自家里主机imac"></a>本次blog提交自家里主机imac</h2><h2 id="以下测试-md语法："><a href="#以下测试-md语法：" class="headerlink" title="以下测试 md语法："></a>以下测试 md语法：</h2><p><a href="http://www.baidu.com" target="_blank" rel="noopener">测试</a>  表示超链接</p><h2 id="大标题"><a href="#大标题" class="headerlink" title="大标题"></a>大标题</h2><h3 id="小标题"><a href="#小标题" class="headerlink" title="小标题"></a>小标题</h3><a id="more"></a><!-- 标签别名 --><blockquote class="blockquote-center"><p>blah blah blah </p></blockquote><h2 id="空格-中文全角空格表示"><a href="#空格-中文全角空格表示" class="headerlink" title="空格  中文全角空格表示"></a>空格  中文全角空格表示</h2><h2 id="文章标题"><a href="#文章标题" class="headerlink" title="文章标题"></a>文章标题</h2><hr><p>文章标题2*</p><hr><blockquote><p>内容     区块引用</p></blockquote><hr><blockquote><blockquote><p>饮用的饮用</p></blockquote></blockquote><hr><blockquote><p>哈哈哈哈</p></blockquote><hr><ul><li>1  asasd</li><li>2 asdasdasdasd</li><li>3 asdasdasdasdasdasd<br>列表</li><li>内容*     表示强调内容<br><img src="/path/to/img.jpg" alt="Alt text">  图片<br><img src="/upload_image/20161012/1.png" alt></li></ul>]]></content>
     
     <summary type="html">
     
@@ -122,10 +207,9 @@
 &lt;p&gt;冲突了，&lt;br&gt;所以还是事先看看有没有这句话，有的话 就不需要做操作了！&lt;/p&gt;
 &lt;p&gt;bingo！！！&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;这次修改主要是测试多端hexo博客的同步问题&lt;br&gt;本次blog提交自家里主机imac&lt;br&gt;以下测试 md语法：&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.baidu.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;测试&lt;/a&gt;  表示超链接&lt;/p&gt;
-&lt;p&gt;##大标题&lt;/p&gt;
-&lt;p&gt;###小标题&lt;/p&gt;
+&lt;p&gt;这次修改主要是测试多端hexo博客的同步问题 &lt;/p&gt;
+&lt;h2 id=&quot;本次blog提交自家里主机imac&quot;&gt;&lt;a href=&quot;#本次blog提交自家里主机imac&quot; class=&quot;headerlink&quot; title=&quot;本次blog提交自家里主机imac&quot;&gt;&lt;/a&gt;本次blog提交自家里主机imac&lt;/h2&gt;&lt;h2 id=&quot;以下测试-md语法：&quot;&gt;&lt;a href=&quot;#以下测试-md语法：&quot; class=&quot;headerlink&quot; title=&quot;以下测试 md语法：&quot;&gt;&lt;/a&gt;以下测试 md语法：&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.baidu.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;测试&lt;/a&gt;  表示超链接&lt;/p&gt;
+&lt;h2 id=&quot;大标题&quot;&gt;&lt;a href=&quot;#大标题&quot; class=&quot;headerlink&quot; title=&quot;大标题&quot;&gt;&lt;/a&gt;大标题&lt;/h2&gt;&lt;h3 id=&quot;小标题&quot;&gt;&lt;a href=&quot;#小标题&quot; class=&quot;headerlink&quot; title=&quot;小标题&quot;&gt;&lt;/a&gt;小标题&lt;/h3&gt;
     
     </summary>
     
@@ -141,7 +225,7 @@
     <link href="https://qindadai.club/2019/04/04/%E8%85%BE%E8%AE%AF%E6%99%BA%E8%81%86%E5%8F%A3%E8%AF%AD%E8%AF%84%E6%B5%8B%E7%9A%84%E7%8A%B6%E6%80%81%E6%9C%BA%E5%AE%9E%E7%8E%B0/"/>
     <id>https://qindadai.club/2019/04/04/腾讯智聆口语评测的状态机实现/</id>
     <published>2019-04-04T09:45:36.000Z</published>
-    <updated>2019-07-08T15:15:37.369Z</updated>
+    <updated>2019-07-17T02:38:00.234Z</updated>
     
     <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h3 id="语音评测的第三方公司"><a href="#语音评测的第三方公司" class="headerlink" title="语音评测的第三方公司"></a>语音评测的第三方公司</h3><p>关于语音评测的公司其实有很多，国内最著名的当然是 科大讯飞，百度语音识别等著名的公司<br>我使用和了解过的基于目前的智能音箱（类似homepod、小爱同学、天猫精灵等其他智能音箱）行业大火的基础上大受欢迎的公司有<br>讯飞、百度、腾讯、阿里等，大多把一些自己公司的业务集成在设备中，向其他小公司提供语音识别的服务，当然服务费也是基于量的基础上，是一必不小的开销，所以目前针对的主要是企业客户</p><h3 id="对比"><a href="#对比" class="headerlink" title="对比"></a>对比</h3><p>我接触过的语音识别、评测、唤醒等功能，主要是有讯飞、百度、腾讯、还有苏州的奇梦者公司和驰声 比较来讲，前几个大公司的语音识别都是基于自己的训练的模型，毫无疑问 讯飞在业界 应该是体验上的no.1<br>但是有个问题就是价格，其他的价格应该都差不多，很多需要商务洽谈的，我也不清楚具体价格，不过标准就是基于使用量吧</p><h2 id="正题（只考虑评测的情况）"><a href="#正题（只考虑评测的情况）" class="headerlink" title="正题（只考虑评测的情况）"></a>正题（只考虑评测的情况）</h2><h3 id="腾讯云下的智玲口语评测"><a href="#腾讯云下的智玲口语评测" class="headerlink" title="腾讯云下的智玲口语评测"></a>腾讯云下的智玲口语评测</h3><p><a href="https://cloud.tencent.com/product/soe" target="_blank" rel="noopener">腾讯云介绍</a></p><p><a href="https://cloud.tencent.com/document/product/884" target="_blank" rel="noopener">开发文档</a></p><h3 id="sdk接入"><a href="#sdk接入" class="headerlink" title="sdk接入"></a>sdk接入</h3><h4 id="1-权限"><a href="#1-权限" class="headerlink" title="1 权限"></a>1 权限</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">android.permission.INTERNET</span><br><span class="line">android.permission.RECORD_AUDIO</span><br><span class="line">android.permission.READ_EXTERNAL_STORAGE</span><br><span class="line">android.permission.WRITE_EXTERNAL_STORAGE</span><br></pre></td></tr></table></figure><h4 id="2-获取密钥"><a href="#2-获取密钥" class="headerlink" title="2 获取密钥"></a>2 获取密钥</h4><p>进入腾讯云后台 如下图：<br><img src="https://main.qcloudimg.com/raw/273b67bc4d38af6cb9999e9f4663d268.png" alt></p><p>配置密钥</p>]]></content>
     
@@ -154,7 +238,7 @@
     
     </summary>
     
-      <category term="android" scheme="https://qindadai.club/categories/android/"/>
+      <category term="Android" scheme="https://qindadai.club/categories/Android/"/>
     
     
       <category term="语音识别" scheme="https://qindadai.club/tags/%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB/"/>
@@ -166,9 +250,9 @@
     <link href="https://qindadai.club/2018/03/01/%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B/"/>
     <id>https://qindadai.club/2018/03/01/新的开始/</id>
     <published>2018-03-01T13:46:12.000Z</published>
-    <updated>2019-07-08T15:15:37.368Z</updated>
+    <updated>2019-07-17T02:37:19.256Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="新的开始"><a href="#新的开始" class="headerlink" title="新的开始"></a>新的开始</h2><p>欢迎来到<a href="https://zzy904494436.github.io/" target="_blank" rel="noopener">我的blog</a>! 之前也有发表过一些零散的小文章在简书等平台. 今天起，我的全部心得、工作遇到的问题，心情随笔都会在这里体现. 就是简单的记录自己, 也记录问题，如果对于你也有帮助，那就算赚了.</p><h2 id="最近的感悟"><a href="#最近的感悟" class="headerlink" title="最近的感悟"></a>最近的感悟</h2><h3 id="关于android的进阶"><a href="#关于android的进阶" class="headerlink" title="关于android的进阶"></a>关于android的进阶</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">android ndk</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">android 前端混编</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">android 插件化</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">android 热修复</span><br></pre></td></tr></table></figure><h3 id="关于趋势"><a href="#关于趋势" class="headerlink" title="关于趋势"></a>关于趋势</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">教育、工业互联网</span><br></pre></td></tr></table></figure><h3 id="关于-公司"><a href="#关于-公司" class="headerlink" title="关于 公司"></a>关于 公司</h3><p>最近和朋友讨论创业的事情，感悟颇多，目前行业的分支越多越多，越来越细，之前一直感觉机会越来越少，其实机会越来越多，因为每一个行业的发展到一定规模，都会细分出很多分支行业，所以机会真的越来也多，技术也越来越多<br>相信技术的驱动性</p><h3 id="生活方面"><a href="#生活方面" class="headerlink" title="生活方面"></a>生活方面</h3><p>累的一比，一天工作生活一堆事情</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="新的开始"><a href="#新的开始" class="headerlink" title="新的开始"></a>新的开始</h2><p>欢迎来到<a href="https://zzy904494436.github.io/" target="_blank" rel="noopener">我的blog</a>!<br>之前也有发表过一些零散的小文章在简书等平台.<br>今天起，我的全部心得、工作遇到的问题，心情随笔都会在这里体现. <br>就是简单的记录自己, 也记录技术上的问题，如果对于你也有帮助，那就算赚了.</p><h2 id="最近的感悟"><a href="#最近的感悟" class="headerlink" title="最近的感悟"></a>最近的感悟</h2><h3 id="关于android的进阶"><a href="#关于android的进阶" class="headerlink" title="关于android的进阶"></a>关于android的进阶</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">android ndk</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">android 前端混编</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">android 插件化</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">android 热修复</span><br></pre></td></tr></table></figure><h3 id="关于趋势"><a href="#关于趋势" class="headerlink" title="关于趋势"></a>关于趋势</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">教育、工业互联网</span><br></pre></td></tr></table></figure><h3 id="关于-公司"><a href="#关于-公司" class="headerlink" title="关于 公司"></a>关于 公司</h3><p>最近和朋友讨论创业的事情，感悟颇多，目前行业的分支越多越多，越来越细，之前一直感觉机会越来越少，其实机会越来越多，因为每一个行业的发展到一定规模，都会细分出很多分支行业，所以机会真的越来也多，技术也越来越多<br>相信技术的驱动性</p><h3 id="生活方面"><a href="#生活方面" class="headerlink" title="生活方面"></a>生活方面</h3><p>累的一比，一天工作生活一堆事情</p>]]></content>
     
     <summary type="html">
     
@@ -182,7 +266,7 @@
       <category term="随笔" scheme="https://qindadai.club/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="心情" scheme="https://qindadai.club/tags/%E5%BF%83%E6%83%85/"/>
+      <category term="感悟 生活" scheme="https://qindadai.club/tags/%E6%84%9F%E6%82%9F-%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
